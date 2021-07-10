@@ -1,0 +1,27 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matty-bennett/team-profile-generator.git"
+  },
+  "author": "Matthew Bennett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matty-bennett/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/matty-bennett/team-profile-generator#readme",
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "inquirer": "^8.1.1",
+    "jest": "^27.0.6"
+  }
+}
