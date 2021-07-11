@@ -6,7 +6,7 @@ A Node.js application for generating simple profiles for your employees.
 ## Contents
 * [Installation](https://github.com/matty-bennett/team-profile-generator/blob/main/README.md#installationusage)
 * [Questions](##Questions)
-* [Demo](##Demo)
+* [Demo](https://github.com/matty-bennett/team-profile-generator/blob/main/README.md#demo)
 
 ## Installation/Usage
 In order to use this application you must have node and inquirer
@@ -16,6 +16,6 @@ In order to use this application you must have node and inquirer
 
 ## Demo
 https://drive.google.com/file/d/1D-pFP2ycdDbIoUF_mf8GEhXMib6QpIvO/view
-``` 
+
 ## Questions
 If you have any questions about the repo, please contact me via github or bennyot10@gmail.com
