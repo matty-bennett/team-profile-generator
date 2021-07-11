@@ -4,7 +4,7 @@
 A Node.js application for generating simple profiles for your employees.
 
 ## Contents
-* [Installation](##Installation)
+* [Installation](https://github.com/matty-bennett/team-profile-generator/blob/main/README.md#installationusage)
 * [Questions](##Questions)
 * [Demo](##Demo)
 
