@@ -9,3 +9,19 @@ test('creates employee object', () => {
     expect(employee.email).toEqual(expect.stringContaining('@'));
     expect(employee.role).toBe('Employee');
 });
+
+test('gets employees name', () => {
+    expect(employee.getName()).toEqual(expect.any(String));
+});
+
+test('get employee id number', () => {
+    expect(employee.getId()).toEqual(expect.any(String));
+});
+
+test('get employee email', () => {
+    expect(employee.getEmail()).toEqual(expect.stringContaining('@'));
+});
+
+test('get employee role', () => {
+    expect(employee.getRole()).toEqual(expect.any(String));
+});
