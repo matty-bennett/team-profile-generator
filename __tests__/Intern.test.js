@@ -1,13 +1,14 @@
 const { test, expect } = require('@jest/globals');
 const Intern = require('../lib/Intern');
 
-const intern = new Intern('Johnathan', 'Doe', 1);
+const intern = new Intern('Johnathan', 3, 'the internet');
 
 test('creates intern object', () => {
-    expect(intern.firstName).toBe('Johnathan');
-    expect(intern.lastName).toBe('Doe');
+    expect(intern.name).toBe('Johnathan');
     expect(intern.id).toEqual(expect.any(Number));
     expect(intern.email).toEqual(expect.stringContaining('@'));
+    expect(intern.role).toBe('Intern');
+    expect(intern.school).toBe('the internet');
 });
 
 test('get intern name', () => {
@@ -15,7 +16,7 @@ test('get intern name', () => {
 });
 
 test('get intern id', () => {
-    expect(intern.getId()).toEqual(expect.any(String));
+    expect(intern.getId()).toEqual(expect.any(Number));
 });
 
 test('get intern email', () => {
